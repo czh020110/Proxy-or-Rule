@@ -1,4 +1,4 @@
-# > Netflix
+# > Netflix 代理
 payload:
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
