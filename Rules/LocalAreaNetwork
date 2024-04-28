@@ -1,4 +1,4 @@
-  # Local Area Network
+  # Local Area Network 直连
 payload:
   - IP-CIDR,1.0.1.0/24,no-resolve
   - IP-CIDR,1.0.2.0/23,no-resolve
