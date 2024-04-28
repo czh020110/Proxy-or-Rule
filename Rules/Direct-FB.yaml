@@ -1,0 +1,253 @@
+#直连-FB
+payload:
+# China Area Network
+  # > 360
+  - DOMAIN-SUFFIX,qhres.com
+  - DOMAIN-SUFFIX,qhimg.com
+  # > Alibaba
+  # USER-AGENT,%E4%BC%98%E9%85%B7*
+  - DOMAIN-SUFFIX,alibaba.com
+  - DOMAIN-SUFFIX,alibabausercontent.com
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,alikunlun.com
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,amap.com
+  - DOMAIN-SUFFIX,autonavi.com
+  - DOMAIN-SUFFIX,dingtalk.com
+  - DOMAIN-SUFFIX,mxhichina.com
+  - DOMAIN-SUFFIX,soku.com
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,tmall.com
+  - DOMAIN-SUFFIX,tmall.hk
+  - DOMAIN-SUFFIX,ykimg.com
+  - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,xiami.com
+  - DOMAIN-SUFFIX,xiami.net
+  # > Apple
+  - DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,apple.co
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,apple-cloudkit.com
+  - DOMAIN-SUFFIX,appstore.com
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,me.com
+  - DOMAIN-SUFFIX,mzstatic.com
+  # - DOMAIN-KEYWORD,apple.com.akadns.net
+  # - DOMAIN-KEYWORD,icloud.com.akadns.net
+  # > Baidu
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,baidubcr.com
+  - DOMAIN-SUFFIX,baidupan.com
+  - DOMAIN-SUFFIX,baidupcs.com
+  - DOMAIN-SUFFIX,bdimg.com
+  - DOMAIN-SUFFIX,bdstatic.com
+  - DOMAIN-SUFFIX,yunjiasu-cdn.net
+  # > Battle
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,blizzard.com
+
+  # > ByteDance
+  - DOMAIN-SUFFIX,feiliao.com
+  - DOMAIN-SUFFIX,pstatp.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,iesdouyin.com
+  - DOMAIN-SUFFIX,toutiao.com
+  # > CCTV
+  - DOMAIN-SUFFIX,cctv.com
+  - DOMAIN-SUFFIX,cctvpic.com
+  - DOMAIN-SUFFIX,livechina.com
+  # > ChinaTelecom
+  - DOMAIN-SUFFIX,21cn.com
+  # > DiDi
+  - DOMAIN-SUFFIX,didialift.com
+  - DOMAIN-SUFFIX,didiglobal.com
+  - DOMAIN-SUFFIX,udache.com
+  # > HunanTV
+  - DOMAIN-SUFFIX,hitv.com
+  - DOMAIN-SUFFIX,mgtv.com
+  # > iQiyi
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,71.am
+  # > 愛奇藝台灣站 & iQIYI
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN,cache.video.iqiyi.com
+  - DOMAIN,cache-video.iq.com
+  - DOMAIN,intl.iqiyi.com
+  - DOMAIN,intl-rcd.iqiyi.com
+  - DOMAIN,intl-subscription.iqiyi.com
+  # (流媒体内容，非必须，省流量可注释)
+  - DOMAIN-KEYWORD,oversea-tw.inter.iqiyi.com
+  - DOMAIN-KEYWORD,oversea-tw.inter.ptqy.gitv.tv
+  - IP-CIDR,103.44.56.0/22,no-resolve
+  - IP-CIDR,118.26.32.0/23,no-resolve
+  - IP-CIDR,118.26.120.0/24,no-resolve
+  - IP-CIDR,223.119.62.225/28,no-resolve
+  - IP-CIDR,23.40.242.10/32,no-resolve
+  - IP-CIDR,23.40.241.251/32,no-resolve
+  # > General
+  # USER-AGENT,archero*
+  # USER-AGENT,coffeecorp*
+  # USER-AGENT,Coffee%20Corp*
+  # USER-AGENT,restaurant-mobile*
+  - DOMAIN,app.adjust.com
+  - DOMAIN,bdtj.tagtic.cn
+  # > Alibaba
+  - DOMAIN,log.mmstat.com
+  - DOMAIN,sycm.mmstat.com
+  # > Google
+  - DOMAIN-SUFFIX,blog.google
+  - DOMAIN-SUFFIX,googletraveladservices.com
+  - DOMAIN,clientservices.googleapis.com
+  - DOMAIN,dl.google.com
+  - DOMAIN,dl.l.google.com
+  - DOMAIN,update.googleapis.com
+  - DOMAIN,translate.googleapis.com
+  # >> Google Fonts API
+  - DOMAIN,fonts.googleapis.com
+  - DOMAIN,fonts.gstatic.com
+  # >> Firebase Cloud Messaging
+  - DOMAIN,mtalk.google.com
+  - DOMAIN,alt1-mtalk.google.com
+  - DOMAIN,alt2-mtalk.google.com
+  - DOMAIN,alt3-mtalk.google.com
+  - DOMAIN,alt4-mtalk.google.com
+  - DOMAIN,alt5-mtalk.google.com
+  - DOMAIN,alt6-mtalk.google.com
+  - DOMAIN,alt7-mtalk.google.com
+  - DOMAIN,alt8-mtalk.google.com
+  # >> Paramount+
+  - DOMAIN,pubads.g.doubleclick.net
+  # > Tencent
+  - DOMAIN,fairplay.l.qq.com
+  - DOMAIN,livew.l.qq.com
+  - DOMAIN,vd.l.qq.com
+  # > Strava
+  - DOMAIN,analytics.strava.com
+  # > Umeng
+  - DOMAIN,msg.umeng.com
+  - DOMAIN,msg.umengcloud.com
+  # > JD
+  - DOMAIN-SUFFIX,jd.com
+  - DOMAIN-SUFFIX,jd.hk
+  - DOMAIN-SUFFIX,jdpay.com
+  - DOMAIN-SUFFIX,360buyimg.com
+  # > Kingsoft
+  - DOMAIN-SUFFIX,iciba.com
+  - DOMAIN-SUFFIX,ksosoft.com
+  # > Meitu
+  - DOMAIN-SUFFIX,meitu.com
+  - DOMAIN-SUFFIX,meitudata.com
+  - DOMAIN-SUFFIX,meitustat.com
+  - DOMAIN-SUFFIX,meipai.com
+  # > Meituan
+  - DOMAIN-SUFFIX,dianping.com
+  - DOMAIN-SUFFIX,dpfile.com
+  - DOMAIN-SUFFIX,meituan.com
+  - DOMAIN-SUFFIX,meituan.net
+  # > MI
+  - DOMAIN-SUFFIX,duokan.com
+  - DOMAIN-SUFFIX,mi.com
+  - DOMAIN-SUFFIX,mi-img.com
+  - DOMAIN-SUFFIX,miui.com
+  - DOMAIN-SUFFIX,miwifi.com
+  - DOMAIN-SUFFIX,xiaomi.com
+  - DOMAIN-SUFFIX,xiaomi.net
+  # > Microsoft
+  # - DOMAIN-SUFFIX,microsoft.com
+  # - DOMAIN-SUFFIX,msecnd.net
+  # - DOMAIN-SUFFIX,office.com
+  # - DOMAIN-SUFFIX,office365.com
+  # - DOMAIN-SUFFIX,s-microsoft.com
+  # - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,visualstudio.com
+  # >> Microsoft Software Download
+  # - DOMAIN,software-download.microsoft.com
+  # - DOMAIN-KEYWORD,-microsoft-com.akamaized.net
+  # >> OneDrive
+  # - DOMAIN-SUFFIX,1drv.com
+  # - DOMAIN-SUFFIX,storage.live.com
+  # >> Outlook
+  - DOMAIN-SUFFIX,hotmail.com
+  - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN,outlook.office365.com
+  - DOMAIN,smtp.office365.com
+  # >> Windows Server Update Services
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,update.microsoft.com
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN,download.microsoft.com
+  - DOMAIN,wustat.windows.com
+  - DOMAIN,ntservicepack.microsoft.com
+  # > NetEase
+  # USER-AGENT,NeteaseMusic*
+  # USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
+  - DOMAIN-SUFFIX,163.com
+  - DOMAIN-SUFFIX,126.com
+  - DOMAIN-SUFFIX,126.net
+  - DOMAIN-SUFFIX,127.net
+  - DOMAIN-SUFFIX,163yun.com
+  - DOMAIN-SUFFIX,lofter.com
+  - DOMAIN-SUFFIX,netease.com
+  - DOMAIN-SUFFIX,ydstatic.com
+  # > PayPal
+  # USER-AGENT,PayPal*
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-SUFFIX,paypalobjects.com
+  # > Sina
+  - DOMAIN-SUFFIX,sina.com
+  - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,weibocdn.com
+  # > Sohu
+  - DOMAIN-SUFFIX,sohu.com
+  - DOMAIN-SUFFIX,sohucs.com
+  - DOMAIN-SUFFIX,sohu-inc.com
+  - DOMAIN-SUFFIX,v-56.com
+  # > Sogo
+  - DOMAIN-SUFFIX,sogo.com
+  - DOMAIN-SUFFIX,sogou.com
+  - DOMAIN-SUFFIX,sogoucdn.com
+  # > Tencent
+  # USER-AGENT,MicroMessenger%20Client
+  # USER-AGENT,WeChat*
+  # USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
+  - DOMAIN-SUFFIX,gtimg.com
+  - DOMAIN-SUFFIX,idqqimg.com
+  - DOMAIN-SUFFIX,igamecj.com
+  - DOMAIN-SUFFIX,myapp.com
+  - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,qqmail.com
+  - DOMAIN-SUFFIX,servicewechat.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,tencent-cloud.net
+  - DOMAIN-SUFFIX,tenpay.com
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN,file-igamecj.akamaized.net
+  - IP-CIDR,182.254.116.0/24,no-resolve
+  - IP-CIDR,203.205.254.0/23,no-resolve
+  # > Content Delivery Network
+  - DOMAIN-SUFFIX,ccgslb.com
+  - DOMAIN-SUFFIX,ccgslb.net
+  - DOMAIN-SUFFIX,chinanetcenter.com
+  - DOMAIN-SUFFIX,meixincdn.com
+  - DOMAIN-SUFFIX,ourdvs.com
+  - DOMAIN-SUFFIX,staticdn.net
+  - DOMAIN-SUFFIX,wangsu.com
+  # > 本地地址和路由器地址 用ACL4SSR的Local...
+
+
+  # > 芒果TV国际
+  - DOMAIN-SUFFIX,api.mgtv.com
+  # > WeTV
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-SUFFIX,wetvinfo.com
+
+  - DOMAIN,download.jetbrains.com
+  - DOMAIN,images-cn.ssl-images-amazon.com
+  - DOMAIN-SUFFIX,smtp
+  - DOMAIN-KEYWORD,aria2
+  - DOMAIN,cn.bing.com
