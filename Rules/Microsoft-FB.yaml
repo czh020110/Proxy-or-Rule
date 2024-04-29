@@ -1,0 +1,12 @@
+payload:
+# >> Microsoft Software Download
+  # - DOMAIN,software-download.microsoft.com
+  # - DOMAIN-KEYWORD,-microsoft-com.akamaized.net
+
+  # >> Windows Server Update Services
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,update.microsoft.com
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN,download.microsoft.com
+  - DOMAIN,wustat.windows.com
+  - DOMAIN,ntservicepack.microsoft.com
