@@ -1,5 +1,13 @@
 payload:
-# >> Microsoft Software Download
+  # > Microsoft
+  # - DOMAIN-SUFFIX,microsoft.com
+  # - DOMAIN-SUFFIX,msecnd.net
+  # - DOMAIN-SUFFIX,office.com
+  # - DOMAIN-SUFFIX,office365.com
+  # - DOMAIN-SUFFIX,s-microsoft.com
+  # - DOMAIN-SUFFIX,windows.com
+  
+  # >> Microsoft Software Download
   # - DOMAIN,software-download.microsoft.com
   # - DOMAIN-KEYWORD,-microsoft-com.akamaized.net
 
