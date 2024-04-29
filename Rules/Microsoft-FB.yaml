@@ -7,11 +7,9 @@ payload:
   - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN-SUFFIX,windows.com
   
-  # >> Microsoft Software Download
   - DOMAIN,software-download.microsoft.com
   - DOMAIN-KEYWORD,-microsoft-com.akamaized.net
 
-  # >> Windows Server Update Services
   - DOMAIN-SUFFIX,windowsupdate.microsoft.com
   - DOMAIN-SUFFIX,update.microsoft.com
   - DOMAIN-SUFFIX,windowsupdate.com
