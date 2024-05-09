@@ -6034,3 +6034,8 @@ payload:
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,gamer.com.tw
   - DOMAIN-SUFFIX,hinet.net
+ # > 动漫网站
+  - DOMAIN-KEYWORD,omofun
+  - DOMAIN-SUFFIX,xiaoxintv.net
+
+  
