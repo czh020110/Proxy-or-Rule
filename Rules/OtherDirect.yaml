@@ -130,3 +130,7 @@
   - DOMAIN-SUFFIX,mirror.ghproxy.com
   - DOMAIN-SUFFIX,api.xiaoai.plus
   - DOMAIN-KEYWORD,xiaoai
+  - DOMAIN-SUFFIX,oneapi.cyberclaude.com
+  - DOMAIN-SUFFIX,newapi.cyberclaude.com
+  - DOMAIN-SUFFIX,api.v36.cm
+  - DOMAIN-SUFFIX,api.gpt.ge
