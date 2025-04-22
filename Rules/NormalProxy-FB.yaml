@@ -6037,5 +6037,6 @@ payload:
  # > 动漫网站
   - DOMAIN-KEYWORD,omofun
   - DOMAIN-SUFFIX,xiaoxintv.net
-
+  - DOMAIN-SUFFIX,xiaoai.plus
+  - DOMAIN-KEYWORD,xiaoai
   
