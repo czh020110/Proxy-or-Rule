@@ -30,3 +30,5 @@ payload:
   - DOMAIN,bard.google.com
   - DOMAIN,gemini.google.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-KEYWORD,copilot
+  - DOMAIN-SUFFIX,copilot.microsoft.com
