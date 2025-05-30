@@ -32,3 +32,4 @@ payload:
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-KEYWORD,copilot
   - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN,aistudio.google.com
