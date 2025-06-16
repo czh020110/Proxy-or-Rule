@@ -150,3 +150,9 @@
   - DOMAIN-SUFFIX,metaso.cn
   - DOMAIN-SUFFIX,m.ithome.com
   - DOMAIN-SUFFIX,m.163.com
+
+
+  - PROCESS-NAME,com.ss.android.ugc.aweme
+  - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,amemv.com
