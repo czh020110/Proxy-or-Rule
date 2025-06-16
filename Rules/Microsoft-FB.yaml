@@ -91,3 +91,24 @@ payload:
   - DOMAIN-SUFFIX,wunderlist.com
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
+
+  - DOMAIN-SUFFIX,aadrm.com  
+  - DOMAIN-SUFFIX,acompli.com  
+  - DOMAIN-SUFFIX,acompli.net  
+  - DOMAIN-SUFFIX,outlook.com  
+  - DOMAIN-SUFFIX,office.com  
+  - DOMAIN-SUFFIX,office365.com  
+  - DOMAIN-SUFFIX,protection.outlook.com  
+  - DOMAIN-SUFFIX,mail.protection.outlook.com  
+  - DOMAIN-SUFFIX,microsoft.com  
+  - DOMAIN-SUFFIX,onmicrosoft.com  
+  - DOMAIN-SUFFIX,live.com  
+  - DOMAIN-SUFFIX,onedrive.com  
+  - DOMAIN-SUFFIX,wns.windows.com  
+  - DOMAIN-SUFFIX,sfx.ms  
+  - DOMAIN-SUFFIX,sharepointonline.com  
+  - DOMAIN-SUFFIX,akamaidhd.net  
+  - DOMAIN-SUFFIX,svc.ms  
+  - DOMAIN-KEYWORD,1drv
+  
+  
