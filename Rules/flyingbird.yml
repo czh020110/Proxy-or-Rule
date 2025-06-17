@@ -1,9 +1,3 @@
----
-#---------------------------------------------------#
-##臣真好
-## 链接（飞鸟）：https://feab95ad069c-apiv1.v27qae.com/flydsubal/9ebjsgx2knzvfy25?clash=1
-#  raw.githubusercontent.com 前添加 https://ghfast.top/ 可直连下载
-#---------------------------------------------------#
 #https://cdn.jsdelivr.net/gh/（前面替换）czh020110/Proxy-or-Rule@（这里/换成@）main/Rules/OtherDirect.yaml
 
 # HTTP 代理端口
@@ -56,7 +50,7 @@ proxy-providers:
   FlyingBird-HongKong:
     type: http
     path: ./ProxySet/FlyingBird/HongKong.yaml
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/9ebjsgx2knzvfy25?clash=1&extend=1"
+    url: "***"
     interval: 1800
     filter: "Hong Kong"
     health-check:
@@ -67,7 +61,7 @@ proxy-providers:
   FlyingBird-Taiwan:
     type: http
     path: ./ProxySet/FlyingBird/Taiwan.yaml
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/9ebjsgx2knzvfy25?clash=1&extend=1"
+    url: "***"
     interval: 1800
     filter: "Taiwan"
     health-check:
@@ -78,7 +72,7 @@ proxy-providers:
   FlyingBird-Japan:
     type: http
     path: ./ProxySet/FlyingBird/Japan.yaml
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/9ebjsgx2knzvfy25?clash=1&extend=1"
+    url: "***"
     interval: 1800
     filter: "Japan"
     health-check:
@@ -89,7 +83,7 @@ proxy-providers:
   FlyingBird-Singapore:
     type: http
     path: ./ProxySet/FlyingBird/Singapore.yaml
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/9ebjsgx2knzvfy25?clash=1&extend=1"
+    url: "***"
     interval: 1800
     filter: "Singapore"
     health-check:
@@ -100,7 +94,7 @@ proxy-providers:
   FlyingBird-USA:
     type: http
     path: ./ProxySet/FlyingBird/USA.yaml
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/9ebjsgx2knzvfy25?clash=1&extend=1"
+    url: "***"
     interval: 1800
     filter: "USA"
     health-check:
@@ -111,7 +105,7 @@ proxy-providers:
   FlyingBird-UK:
     type: http
     path: ./ProxySet/FlyingBird/UK.yaml
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/9ebjsgx2knzvfy25?clash=1&extend=1"
+    url: "***"
     interval: 1800
     filter: "UK"
     health-check:
@@ -122,7 +116,7 @@ proxy-providers:
   FlyingBird-Malaysia:
     type: http
     path: ./ProxySet/FlyingBird/Malaysia.yaml
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/9ebjsgx2knzvfy25?clash=1&extend=1"
+    url: "***"
     interval: 1800
     filter: "Malaysia"
     health-check:
@@ -133,7 +127,7 @@ proxy-providers:
   FlyingBird-Turkey:
     type: http
     path: ./ProxySet/FlyingBird/Turkey.yaml
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/9ebjsgx2knzvfy25?clash=1&extend=1"
+    url: "***"
     interval: 1800
     filter: "Turkey"
     health-check:
@@ -144,7 +138,7 @@ proxy-providers:
   FlyingBird-Argentina:
     type: http
     path: ./ProxySet/FlyingBird/Argentina.yaml
-    url: "https://fba01.fbsubcn01.cc:2096/flydsubal/9ebjsgx2knzvfy25?clash=1&extend=1"
+    url: "***"
     interval: 1800
     filter: "Argentina"
     health-check:
@@ -287,11 +281,6 @@ proxy-groups:
     proxies:
       - Overseas
       - Auto
-  - name: AD
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
   - name: Auto
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -319,7 +308,7 @@ rule-providers:
   NetflixIP:
     behavior: classical
     type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/NetflixIP.yaml"
+    url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/NetflixIP.yaml"
     interval: 86400
     path: ./Ruleset/NetflixIP.yaml
 
@@ -347,14 +336,14 @@ rule-providers:
   steam:
     behavior: classical
     type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Steam.yaml"
+    url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/Steam.yaml"
     interval: 86400
     path: ./Ruleset/steam.yaml
 
   Origin:
     behavior: classical
     type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Origin.yaml"
+    url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/Origin.yaml"
     interval: 86400
     path: ./Ruleset/Origin.yaml
 
@@ -368,7 +357,7 @@ rule-providers:
   YouTube-ACL:
     behavior: classical
     type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/YouTube.yaml"
+    url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/YouTube.yaml"
     interval: 86400
     path: ./Ruleset/YouTube-ACL.yaml
 
@@ -396,7 +385,7 @@ rule-providers:
   DisneyPlus:
     behavior: classical
     type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/DisneyPlus.yaml"
+    url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/DisneyPlus.yaml"
     interval: 86400
     path: ./Ruleset/DisneyPlus.yaml
 
@@ -411,28 +400,28 @@ rule-providers:
   ChinaDomain:
     behavior: classical
     type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaDomain.yaml"
+    url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/ChinaDomain.yaml"
     interval: 86400
     path: ./Ruleset/ChinaDomain.yaml
 
   ChinaCompanyIp:
     behavior: domain
     type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaCompanyIp.yaml"
+    url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/ChinaCompanyIp.yaml"
     interval: 86400
     path: ./Ruleset/ChinaCompanyIp.yaml
 
   LocalAreaNetwork-ACL:
     behavior: classical
     type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/LocalAreaNetwork.yaml"
+    url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/LocalAreaNetwork_ACL.yaml"
     interval: 86400
     path: ./Ruleset/LocalAreaNetwor-ACL.yaml
 
   GoogleCN:
     behavior: classical
     type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/GoogleCN.yaml"
+    url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/GoogleCN.yaml"
     interval: 86400
     path: ./Ruleset/GoogleCN.yaml
 
@@ -461,7 +450,7 @@ rule-providers:
   ProxyGFWlist:
     behavior: classical
     type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ProxyGFWlist.yaml"
+    url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/ProxyGFWlist.yaml"
     interval: 86400
     path: ./Ruleset/ProxyGFWlist.yaml
 
@@ -471,45 +460,7 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/czh020110/Proxy-or-Rule@main/Rules/NormalProxy-FB.yaml"
     interval: 86400
     path: ./Ruleset/NormalProxy-FB.yaml
-
-  #广告屏蔽
-  BanAD:
-    behavior: classical
-    type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/BanAD.yaml"
-    interval: 86400
-    path: ./Ruleset/BanAD.yaml
-
-  BanProgramAD:
-    behavior: classical
-    type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/BanProgramAD.yaml"
-    interval: 86400
-    path: ./Ruleset/BanProgramAD.yaml
-
-  BanEasyListChina:
-    behavior: classical
-    type: http
-    url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/BanEasyListChina.yaml"
-    interval: 86400
-    path: ./Ruleset/BanEasyListChina.yaml
-
-  reject:
-    behavior: domain
-    type: http
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
-    interval: 86400
-    path: ./Ruleset/reject.yaml
-
 rules:
-  - DOMAIN,stun.l.google.com,DIRECT
-  - DOMAIN,stun1.l.google.com,DIRECT
-  - DOMAIN,stun2.l.google.com,DIRECT
-  - DOMAIN,stun.ekiga.net,DIRECT
-  - DOMAIN,stun.ideasip.com,DIRECT
-  - DOMAIN,stun.schlund.de,DIRECT
-  - DOMAIN,mtalk.google.com,DIRECT
-
   #特殊代理（规则集）
   - RULE-SET,NetflixIP,Netflix-HBO-Disney
   - RULE-SET,Netflix-FB,Netflix-HBO-Disney
@@ -536,12 +487,6 @@ rules:
   - RULE-SET,LocalAreaNetwork-FB,DIRECT
   - RULE-SET,OtherDirect-FB,DIRECT
   - RULE-SET,Direct-FB,DIRECT
-
-  #广告屏蔽（规则集）
-  - RULE-SET,BanAD,AD
-  - RULE-SET,BanProgramAD,AD
-  - RULE-SET,BanEasyListChina,AD
-  - RULE-SET,reject,AD
 
   - GEOIP,CN,DIRECT
   - MATCH,Others
