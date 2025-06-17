@@ -54,7 +54,7 @@ proxy-providers:
     interval: 1800
     filter: "Hong Kong"
     health-check:
-      enable: true
+      enable: false
       url: http://www.gstatic.com/generate_204
       interval: 60
 
@@ -65,7 +65,7 @@ proxy-providers:
     interval: 1800
     filter: "Taiwan"
     health-check:
-      enable: true
+      enable: false
       url: http://www.gstatic.com/generate_204
       interval: 60
 
@@ -76,7 +76,7 @@ proxy-providers:
     interval: 1800
     filter: "Japan"
     health-check:
-      enable: true
+      enable: false
       url: http://www.gstatic.com/generate_204
       interval: 60
 
@@ -87,7 +87,7 @@ proxy-providers:
     interval: 1800
     filter: "Singapore"
     health-check:
-      enable: true
+      enable: false
       url: http://www.gstatic.com/generate_204
       interval: 300
 
@@ -98,7 +98,7 @@ proxy-providers:
     interval: 1800
     filter: "USA"
     health-check:
-      enable: true
+      enable: false
       url: http://www.gstatic.com/generate_204
       interval: 300
 
@@ -109,7 +109,7 @@ proxy-providers:
     interval: 1800
     filter: "UK"
     health-check:
-      enable: true
+      enable: false
       url: http://www.gstatic.com/generate_204
       interval: 300
 
@@ -120,7 +120,7 @@ proxy-providers:
     interval: 1800
     filter: "Malaysia"
     health-check:
-      enable: true
+      enable: false
       url: http://www.gstatic.com/generate_204
       interval: 300
 
@@ -131,7 +131,7 @@ proxy-providers:
     interval: 1800
     filter: "Turkey"
     health-check:
-      enable: true
+      enable: false
       url: http://www.gstatic.com/generate_204
       interval: 300
 
@@ -142,7 +142,7 @@ proxy-providers:
     interval: 1800
     filter: "Argentina"
     health-check:
-      enable: true
+      enable: false
       url: http://www.gstatic.com/generate_204
       interval: 300
 
