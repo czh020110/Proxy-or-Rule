@@ -6037,4 +6037,10 @@ payload:
  # > 后加
   - DOMAIN-KEYWORD,omofun
   - DOMAIN-SUFFIX,xiaoxintv.net
-
+  - DOMAIN-SUFFIX,flyingbird.pro
+  - DOMAIN-SUFFIX,flyingbird.cc
+  - DOMAIN,translate.googleapis.com
+  - DOMAIN-SUFFIX,sider.ai
+  - DOMAIN-SUFFIX,18comic.vip
+  - DOMAIN-SUFFIX,snapdrop.net
+  - DOMAIN,yunwu.zeabur.app
