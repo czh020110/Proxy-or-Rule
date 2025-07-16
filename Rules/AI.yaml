@@ -32,8 +32,6 @@ payload:
   - DOMAIN-KEYWORD,copilot
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN,aistudio.google.com
-
-
   - DOMAIN-SUFFIX,yunwu.ai
   - DOMAIN,yunwu.ai
   - DOMAIN-SUFFIX,yansd666.top
