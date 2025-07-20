@@ -655,7 +655,7 @@ payload:
   - DOMAIN-SUFFIX,binance.com
   - DOMAIN-SUFFIX,binance.us
   - DOMAIN-SUFFIX,binancezh.cc
-  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN,www.bing.com
   - DOMAIN-SUFFIX,binux.me
   - DOMAIN-SUFFIX,binwang.me
   - DOMAIN-SUFFIX,bipic.net
