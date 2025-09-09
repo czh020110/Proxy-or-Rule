@@ -156,4 +156,36 @@
   - DOMAIN-SUFFIX,douyin.com
   - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,amemv.com
+
+  # 微信服务
   - PROCESS-NAME,com.tencent.mm
+  - DOMAIN-KEYWORD,weichat
+  - DOMAIN-KEYWORD,weixin
+  - PROCESS-NAME,WeChat.exe
+  - PROCESS-NAME,WeXin.exe
+  - PROCESS-NAME,WeChatappEx.exe
+  - PROCESS-NAME,WXWorkweb.exe
+  - PROCESS-NAME,WXDrive
+  - DOMAIN,mp.weixin.qq.com
+  - DOMAIN,open.weixin.qq.com
+  - DOMAIN,long.open.weixin.qq.com
+  - DOMAIN,lp.open.weixin.qq.com
+  - DOMAIN,servicewechat.com
+  - DOMAIN,dldir1.qq.com
+  - DOMAIN,res.wx.qq.com
+  - DOMAIN,res.servicewechat.com
+  - DOMAIN,tcb.cloud.tencent.com
+  - DOMAIN,scf.tencentcloudapi.com
+  - DOMAIN,flexdb.tencentcloudapi.com
+  - DOMAIN,tcb.tencentcloudapi.com
+  - DOMAIN,wxagame.weixin.qq.com
+  - DOMAIN,long.wxagame.weixin.qq.com
+  - DOMAIN,cube.weixinbridge.com
+  - DOMAIN,repot.url.cn
+  - DOMAIN,api.mch.weixin.qq.com
+  - DOMAIN,pay.weixin.qq.com
+  - DOMAIN,app2.mch.weixin.qq.com
+  - DOMAIN,api3.weixin.qq.com
+
+  
+  
