@@ -6047,3 +6047,5 @@ payload:
   - DOMAIN,www.notion.so
   - DOMAIN,api.notion.com
   - DOMAIN,docs.gtk.pw
+  - DOMAIN,umami.gtk.pw
+  - DOMAIN-SUFFIX,gtk.pw
