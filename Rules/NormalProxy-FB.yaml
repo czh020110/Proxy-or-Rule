@@ -6049,3 +6049,4 @@ payload:
   - DOMAIN,docs.gtk.pw
   - DOMAIN,umami.gtk.pw
   - DOMAIN-SUFFIX,gtk.pw
+  - DOMAIN-SUFFIX,nvidia.com
