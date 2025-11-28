@@ -36,6 +36,7 @@ payload:
   - DOMAIN-KEYWORD,xiaoai
   - DOMAIN,new.czh.edu.kg
   # 谷歌AI：Gemini
+  - DOMAIN-KEYWORD,google
   - DOMAIN,aistudio.google.com
   - DOMAIN,www.google-analytics.com
   - DOMAIN,analytics.google.com
