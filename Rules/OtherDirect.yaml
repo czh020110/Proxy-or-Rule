@@ -186,6 +186,6 @@
   - DOMAIN,pay.weixin.qq.com
   - DOMAIN,app2.mch.weixin.qq.com
   - DOMAIN,api3.weixin.qq.com
-
+  - PROCESS-NAME,me.rerere.rikkahub
   
   
