@@ -735,3 +735,14 @@ payload:
   - PROCESS-NAME,com.google.android.gsf
   - PROCESS-NAME,com.google.android.play.games
   - PROCESS-NAME,BackupandSync
+  # 谷歌AI：Gemini
+  - DOMAIN-KEYWORD,google
+  - DOMAIN,aistudio.google.com
+  - DOMAIN,www.google-analytics.com
+  - DOMAIN,analytics.google.com
+  - DOMAIN,people-pa.clients6.google.com
+  - DOMAIN,waa-pa.clients6.google.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,bard.google.com
+  - DOMAIN,gemini.google.com
+  - DOMAIN,generativelanguage.googleapis.com
