@@ -736,3 +736,4 @@ payload:
   - DOMAIN,bard.google.com
   - DOMAIN,gemini.google.com
   - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN-KEYWORD,antigravity
