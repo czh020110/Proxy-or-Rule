@@ -35,4 +35,4 @@ payload:
   - DOMAIN-SUFFIX,xiaoai.plus
   - DOMAIN-KEYWORD,xiaoai
   - DOMAIN,new.czh.edu.kg
-
+  - DOMAIN-KEYWORD,claude
