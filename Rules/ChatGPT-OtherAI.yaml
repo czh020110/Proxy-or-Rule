@@ -26,6 +26,8 @@ payload:
   - DOMAIN,functional.events.data.microsoft.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,claude
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-KEYWORD,copilot
   - DOMAIN-SUFFIX,copilot.microsoft.com
