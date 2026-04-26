@@ -36,5 +36,13 @@ payload:
   - DOMAIN-SUFFIX,yansd666.top
   - DOMAIN-SUFFIX,xiaoai.plus
   - DOMAIN-KEYWORD,xiaoai
+  - DOMAIN-KEYWORD,codex
   - DOMAIN,new.czh.edu.kg
   - DOMAIN-KEYWORD,claude
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,support.claude.com
+  - DOMAIN-SUFFIX,platform.claude.com
+  - DOMAIN-SUFFIX,api.anthropic.com
+  - DOMAIN-SUFFIX,console.anthropic.com
+  - DOMAIN-SUFFIX,statsig.anthropic.com
+  
