@@ -252,3 +252,4 @@ payload:
   - DOMAIN-KEYWORD,aria2
   - DOMAIN,cn.bing.com
   - DOMAIN-KEYWORD,tencentyun
+  - DOMAIN-SUFFIX,dashscope.aliyuncs.com
