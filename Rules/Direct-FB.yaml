@@ -253,3 +253,6 @@ payload:
   - DOMAIN,cn.bing.com
   - DOMAIN-KEYWORD,tencentyun
   - DOMAIN-SUFFIX,dashscope.aliyuncs.com
+
+  # > 腾讯云服务器
+  - IP-CIDR,124.221.142.14/32,no-resolve
