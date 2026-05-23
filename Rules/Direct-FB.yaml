@@ -262,3 +262,5 @@ payload:
 
   # > 影视
   - DOMAIN,4kvm.net
+
+  - DOMAIN-SUFFIX,logitechg.com.cn
