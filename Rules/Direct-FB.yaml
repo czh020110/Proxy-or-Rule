@@ -256,3 +256,9 @@ payload:
 
   # > 腾讯云服务器
   - IP-CIDR,124.221.142.14/32,no-resolve
+
+  # > deepseek
+  - DOMAIN,api.deepseek.com
+
+  # > 影视
+  - DOMAIN,4kvm.net
