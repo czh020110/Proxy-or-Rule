@@ -264,3 +264,4 @@ payload:
   - DOMAIN,4kvm.net
 
   - DOMAIN-SUFFIX,logitechg.com.cn
+  - DOMAIN-SUFFIX,xf-yun.com
