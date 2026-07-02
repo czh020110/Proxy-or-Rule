@@ -6050,3 +6050,4 @@ payload:
   - DOMAIN,umami.gtk.pw
   - DOMAIN-SUFFIX,gtk.pw
   - DOMAIN-SUFFIX,nvidia.com
+  - DOMAIN-KEYWORD,rsshub
