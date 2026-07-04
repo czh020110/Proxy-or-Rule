@@ -266,3 +266,5 @@ payload:
   - DOMAIN-SUFFIX,logitechg.com.cn
   - DOMAIN-SUFFIX,xf-yun.com
   - DOMAIN-SUFFIX,api.aipaibox.com
+  - DOMAIN,api4.orangeai.cc
+  - DOMAIN,maas-coding-api.cn-huabei-1.xf-yun.com
