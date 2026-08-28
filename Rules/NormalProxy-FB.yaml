@@ -6052,3 +6052,4 @@ payload:
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-KEYWORD,rsshub
   - DOMAIN-KEYWORD,ai-buy
+  - DOMAIN-KEYWORD,opencode
