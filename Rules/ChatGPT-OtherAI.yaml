@@ -38,3 +38,4 @@ payload:
   - DOMAIN-SUFFIX,statsig.anthropic.com
   - DOMAIN-SUFFIX,api.86gamestore.com
   - DOMAIN-KEYWORD,opencode
+  - DOMAIN-KEYWORD,meta
