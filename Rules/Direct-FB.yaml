@@ -271,3 +271,6 @@ payload:
   - DOMAIN,ai.czh.edu.kg
   - DOMAIN,taotoken.net
   - DOMAIN,ai.168661.xyz
+  - DOMAIN-SUFFIX,seetacloud.com
+  - IP-CIDR,58.144.141.28/32,no-resolve
+  
