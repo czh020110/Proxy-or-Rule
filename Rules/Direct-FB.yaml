@@ -274,3 +274,4 @@ payload:
   - DOMAIN-SUFFIX,seetacloud.com
   - IP-CIDR,58.144.141.28/32,no-resolve
   - DOMAIN,a6api.com
+  - DOMAIN,api.a6api.com
