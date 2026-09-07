@@ -273,4 +273,4 @@ payload:
   - DOMAIN,ai.168661.xyz
   - DOMAIN-SUFFIX,seetacloud.com
   - IP-CIDR,58.144.141.28/32,no-resolve
-  
+  - DOMAIN,a6api.com
