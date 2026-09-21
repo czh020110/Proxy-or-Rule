@@ -275,3 +275,4 @@ payload:
   - IP-CIDR,58.144.141.28/32,no-resolve
   - DOMAIN,a6api.com
   - DOMAIN,api.a6api.com
+  - IP-CIDR,124.221.142.14/32,no-resolve
