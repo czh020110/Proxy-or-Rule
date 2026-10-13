@@ -276,3 +276,4 @@ payload:
   - DOMAIN,a6api.com
   - DOMAIN,api.a6api.com
   - IP-CIDR,124.221.142.14/32,no-resolve
+  - PROCESS-NAME,com.megacrit.SlayTheSpire2
