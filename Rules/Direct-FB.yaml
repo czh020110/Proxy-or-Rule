@@ -277,3 +277,6 @@ payload:
   - DOMAIN,api.a6api.com
   - IP-CIDR,124.221.142.14/32,no-resolve
   - PROCESS-NAME,com.megacrit.SlayTheSpire2
+  - DOMAIN-SUFFIX,t3.codes
+  - DOMAIN-SUFFIX,cfargotunnel.com
+  - DOMAIN-SUFFIX,argotunnel.com
